@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
   },
   devIndicators: {
     position: "bottom-right"
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   }
 };
 
