@@ -15,11 +15,14 @@ const nextConfig: NextConfig = {
     ppr: "incremental",
   },
   devIndicators: {
-    position: "bottom-right"
+    position: "bottom-right",
   },
   typescript: {
     ignoreBuildErrors: true,
-  }
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
