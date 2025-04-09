@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "easymde/dist/easymde.min.css";
 import { Toaster } from "@/components/ui/sonner";
-import { SanityLive } from "@/lib/live";
 
 export const metadata: Metadata = {
   title: "YC directory",
@@ -35,7 +34,6 @@ export default function RootLayout({
       <body className={workSans.className}>
         {children}
         <Toaster />
-        <SanityLive />
       </body>
     </html>
   );
